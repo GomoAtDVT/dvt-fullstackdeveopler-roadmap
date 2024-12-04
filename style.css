@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: rgba(35, 40, 48, 1);
+    color: #fff;
+}
+
+.navigation li  {
+    list-style-type: none;
+    align-items: center;
+    display: inline-block;
+    /* gap: 12px; */
+    /* float: left; */
+}
+
+.navigation a {
+    color: rgba(255, 255, 255, 1);
+    /* display: flex; */
+    text-decoration: none;
+    align-items: center;
+    /* display: block; */
+  padding: 8px;
+}
+
+.navigation a:hover {
+    color: #ff7575;
+}
+
+a:hover {
+    color: #ff7575;
+}
+
+section h2 {
+    color: #ff7575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 50px;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5rem;
+}
+
+/* .container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 1em;
+}
+
+.box {
+     min-width: 100px; 
+    min-height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.category p{
+    color: #808080;
+    font-style: italic;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px ;
+    margin-top: 6px;
+    margin-bottom: 5rem;
+}
+ 
+div {
+    columns: 3;
+    border: 1px solid #ffffff;
+    display: inline-block;
+}
+
+.github {
+    width: min-content;
+    height: max-content;
+    top: 11px;
+    border-radius: 6px;
+    justify-content: center;
+    color: #000000;
+    background-color: #fff;
+    padding: 20px;
+    margin: 2px;
+}
+
+.python {
+    width: min-content;
+    height: max-content;
+    top: 11px;   
+    border-radius: 6px;
+    /* display: inline-block; */
+    justify-content: space-between;
+    color: #000000;
+    background-color: #fff;
+    padding: 20px;
+    margin: 2px;
+}
+
+.pagination li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-around;
+    gap: 120px;
+}
+
+.pagination a {
+    color: #808080;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    border-top: 2px solid #ff7575 ;
+    color: #ff7575;
+}
